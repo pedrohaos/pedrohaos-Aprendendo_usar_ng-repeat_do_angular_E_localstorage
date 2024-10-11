@@ -1,0 +1,42 @@
+.btn{
+    margin: 50px 0;
+    text-transform: capitalize;
+}
+
+table{
+    width: 100%;
+}
+
+th,
+td{
+    border: 1px solid var(--borda-branca);
+}
+
+th,
+.header__table__mobile{
+    color: var(--branco-texto);
+    background-color: var(--fundo-preto);
+    text-transform: capitalize;
+    font-size: var(--fs-20px);
+    padding: 0 .2em;
+}
+
+.body__table__desktop:nth-child(odd),
+.body__table__mobile:nth-child(odd){
+    background-color: var(--fundo-branco);
+}
+
+.body__table__desktop:nth-child(even),
+.body__table__mobile:nth-child(even){
+    background-color: var(--fundo-cinza);
+}
+
+.body__table__mobile + .body__table__mobile{
+    border-top: 2px solid var(--borda-branca);
+}
+
+tbody tr td{
+    font-size: var(--fs-16px);
+    padding: 0 .3em;
+}
+

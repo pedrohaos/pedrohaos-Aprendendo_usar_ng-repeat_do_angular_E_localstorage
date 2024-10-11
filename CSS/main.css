@@ -1,0 +1,42 @@
+@import url('registros.css');
+@import url('novo.css');
+
+header,
+h1,
+h2,
+p,
+div,
+th,
+td,
+label,
+input{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --borda-branca: #AAA;
+    --branco-texto: #EEE;
+    --fundo-preto: #333;
+    --fundo-cinza: #DDD;
+    --fundo-branco: #FFF;
+    --vermelho: #DC3545;
+
+    --fs-16px: 1rem;
+    --fs-20px: 1.25rem;
+}
+
+.layout{
+    width: 1250px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
