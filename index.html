@@ -61,20 +61,11 @@
                     </tbody>
                 </table>
             </section>
-            <button id="limpar">limpar</button>
+            <button id="limpar" class="btn btn-outline-danger">limpar</button>
         </main>
     </ion-pane>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="JS/registros.js"></script>
-<script>
-    const limpar = document.querySelector('#limpar');
-
-    function limparLista(){
-        localStorage.clear();
-        location.reload();
-    }
-
-    limpar.addEventListener('click', limparLista);
-</script>
+<script src="JS/limpar.js"></script>
 </html>
